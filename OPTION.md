@@ -43,8 +43,14 @@
 ``` gitbook init ```
 ``` gitbook build ```
 
-##　将代码提交的npm 
+## 将代码提交的npm 
 
 ``` npm add user ```
 ``` npm add login ```
 ``` npm publish ```
+
+## 发布代码到npm 问题记录
+
+- 403 没权限，项目名称已经在npm存在，可在package.json修改name字段名字
+- 版本问题 在npm已经发布过版本，不能发相同的版本，npm 上托管的代码不允许改版本，可在package.json修改version版本
+
