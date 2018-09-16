@@ -52,6 +52,11 @@
 ``` git tag -a 'v0.0.1' -m 'first version' ```
 ``` git push origin v0.0.1 (需要用这个才行git push --tags)``` 
 
+## 删除tag
+
+``` git tag -d v0.0.1 ```
+``` git push origin :v0.0.1 ```
+
 ## 将代码提交的npm 
 
 ``` npm add user ```
