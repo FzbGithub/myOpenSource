@@ -43,6 +43,15 @@
 ``` gitbook init ```
 ``` gitbook build ```
 
+## 先在.gitignore文件上加上 _book
+
+- git不用提交_book文件夹及其子文件的内容到github仓库
+
+## 提交第一版版本，创建tag
+
+``` git tag -a 'v0.0.1' -m 'first version' ```
+``` git push origin v0.0.1 ``` 
+
 ## 将代码提交的npm 
 
 ``` npm add user ```
@@ -53,4 +62,7 @@
 
 - 403 没权限，项目名称已经在npm存在，可在package.json修改name字段名字
 - 版本问题 在npm已经发布过版本，不能发相同的版本，npm 上托管的代码不允许改版本，可在package.json修改version版本
+
+
+
 
