@@ -1,0 +1,27 @@
+{
+  "name": "myopensource",
+  "version": "0.0.1",
+  "description": "开源项目总结",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FzbGithub/myOpenSource.git"
+  },
+  "keywords": [
+    "my",
+    "opensource"
+  ],
+  "author": "fy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FzbGithub/myOpenSource/issues"
+  },
+  "homepage": "https://github.com/FzbGithub/myOpenSource#readme"
+}
