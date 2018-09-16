@@ -50,7 +50,7 @@
 ## 提交第一版版本，创建tag
 
 ``` git tag -a 'v0.0.1' -m 'first version' ```
-``` git push origin v0.0.1 ``` 
+``` git push origin v0.0.1 (需要用这个才行git push --tags)``` 
 
 ## 将代码提交的npm 
 
